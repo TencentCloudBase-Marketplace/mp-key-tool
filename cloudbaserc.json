@@ -3,7 +3,21 @@
   "version": "2.0",
   "$schema": "https://framework-1258016615.tcloudbaseapp.com/schema/latest.json",
   "framework": {
-    "name": "app-template",
-    "plugins": {}
-  }
+    "name": "mp-key-tool",
+    "plugins": {
+      "website": {
+        "use": "@cloudbase/framework-plugin-website",
+        "inputs": {
+          "outputPath": "dist",
+          "cloudPath": "/mp-key-tool/",
+          "commands": {
+            "build": "npm run build"
+          }
+        }
+      }
+    }
+  },
+  "functionRoot": "./functions",
+  "functions": [],
+  "region": "ap-shanghai"
 }
