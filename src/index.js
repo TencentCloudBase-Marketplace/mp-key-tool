@@ -20,6 +20,5 @@ function transform() {
 }
 
 function copy(event) {
-  console.log(event);
   $result.select();
 }
