@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>🔑 小程序部署密钥转换小工具</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app">
+			<h1>🔑 小程序部署密钥转换小工具</h1>
+			<h2>1⃣️ 准备工作</h2>
+			<p>首先需要打开 <a href="https://mp.weixin.qq.com/">微信公众平台 | 开发管理 | 开发设置</a> 执行下面的操作</p>
+			<img class="mp-image" src="https://main.qcloudimg.com/raw/c71bfb7b7101e6a45748754d7ad70b6d.png"></div>
+			<h2>2⃣️ 选择密钥</h2>
+			<p>点击从本地选择第1步下载的密钥</p>
+			<input type="file" id="file" accept=".key">
+			<h2>3⃣️ 复制结果</h2>
+			<p>点击下方文本框并复制转换后的 base64 格式的密钥信息</p>
+			<textarea id="result" cols="30" rows="10"></textarea>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
